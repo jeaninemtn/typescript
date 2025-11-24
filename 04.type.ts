@@ -1,6 +1,8 @@
 // 資料型別
 // https://willh.gitbook.io/typescript-tutorial/basics/primitive-data-types
 
+// 原始資料型別 primitive
+
 let isPerson: boolean = false;
 
 let decLiteral: number = 6;
