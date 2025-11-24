@@ -2,8 +2,8 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
+    // "rootDir": "./src",  // 原始ts檔案
+    // "outDir": "./dist",	// 編譯後檔案(js)放這裡
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
