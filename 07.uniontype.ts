@@ -2,6 +2,7 @@
 
 // https://willh.gitbook.io/typescript-tutorial/basics/union-types
 
+// https://www.w3schools.com/typescript/typescript_union_types.php
 
 // ---
 

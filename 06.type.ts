@@ -1,11 +1,13 @@
 // ts中才有的型別
 
 // any
-// unknow
+// unknown
 // void
 // never
 
 // https://ithelp.ithome.com.tw/articles/10271618
+
+// https://www.w3schools.com/typescript/typescript_special_types.php
 
 // ---
 
@@ -29,7 +31,8 @@ function fn(x) {    // 沒指定 是any
 // ---
 
 
-// unknow
+// unknown
+// 比起any 更安全的一種型別
 
 function fna(a: any) {
     a.b();  // ok
@@ -37,6 +40,18 @@ function fna(a: any) {
 
 function fnb(a: unknown) {
     // a.b();  // error
+    // a is of type 'unknown'
+}
+
+// 使用unknown的變數之前 先寫好不同類型做不同事
+function processValue(value: unknown) {
+    if (typeof value === "string") {
+        // value is treated as string
+        console.log(value.toUpperCase());
+    } else if (Array.isArray(value)) {
+        // value is treated as array
+        console.log(value.length);
+    }
 }
 
 

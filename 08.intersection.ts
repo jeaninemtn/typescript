@@ -6,7 +6,7 @@
 // ---
 
 
-// && 須同時符合兩種型別
+// & 須同時符合兩種型別
 interface Colorful {
     color: string;   
 };

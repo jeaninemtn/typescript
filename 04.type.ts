@@ -40,7 +40,7 @@ let numuu: number = numu;
 // type assertions
 
 // https://ithelp.ithome.com.tw/articles/10263795
-
+// https://www.w3schools.com/typescript/typescript_explicit_inference.php
 
 // ---
 
@@ -95,6 +95,3 @@ const user2 = <User>{
 // assertion要小心使用
 
 // https://willh.gitbook.io/typescript-tutorial/basics/type-assertion
-
-
-
