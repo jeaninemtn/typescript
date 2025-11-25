@@ -45,7 +45,7 @@ function fnb(a: unknown) {
 
 // 使用unknown的變數之前 先寫好不同類型做不同事
 function processValue(value: unknown) {
-    if (typeof value === "string") {
+    if (typeof value === "string") {    // narrowing
         // value is treated as string
         console.log(value.toUpperCase());
     } else if (Array.isArray(value)) {
