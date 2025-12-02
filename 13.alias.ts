@@ -47,3 +47,11 @@ const bear: Bear = {
 
 type Status = "success" | "error";  // 定義了一種型別 值只能是兩種字串
 let response: Status = "success";
+
+
+// ---
+
+
+type WrappedValue<T> = { value: T };
+const wrappedNumber: WrappedValue<number> = { value: 10 };
+const wrappedString: WrappedValue<string> = { value: "10" };

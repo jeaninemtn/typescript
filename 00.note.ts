@@ -1,3 +1,7 @@
+// TypeScript is JavaScript with added syntax for types.
+
+// ---
+
 // https://ithelp.ithome.com.tw/articles/10259246
 
 // https://willh.gitbook.io/typescript-tutorial
@@ -6,13 +10,24 @@
 // https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 
 
+// ---
+
+// prerequisite
+// node.js
+
+// ---
+
 // installation
 /*
 npm install -g typescript
 */
 
 // version
-// tsc -v
+/**
+tsc -v
+*/
 
 // create ts config file
-// tsc --init
+/* 
+tsc --init
+*/
