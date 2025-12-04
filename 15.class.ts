@@ -52,7 +52,7 @@ class NamedValue<T> {
     constructor(private name: string) {};
 
     /* 
-    1. constructor 原本就是公有變數性質(pucblic)
+    1. constructor 原本就是公有變數性質(public)
 
     2. 上面這句寫法等同於:
 
